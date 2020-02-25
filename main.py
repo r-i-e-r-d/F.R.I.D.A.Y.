@@ -1,6 +1,6 @@
 from trav_directory import *
 
-username = 'devil'
+username = 'devi'
 
 
 # Comments
