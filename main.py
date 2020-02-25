@@ -1,6 +1,6 @@
 from trav_directory import *
 
-username = 'devi'
+username = 'devil'
 
 
 # Comments
@@ -17,6 +17,3 @@ def just_traverse_directory():
 
 def list_directories_devi():
     traversing_func('/home/'+username)
-
-
-def
