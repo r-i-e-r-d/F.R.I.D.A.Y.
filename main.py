@@ -17,3 +17,6 @@ def just_traverse_directory():
 
 def list_directories_devi():
     traversing_func('/home/'+username)
+
+
+just_traverse_directory()
