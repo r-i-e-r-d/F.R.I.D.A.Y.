@@ -54,24 +54,22 @@ def passwordCheck(password):
             flag = 0
             print("\n\n\t[✔] Password Accepted")
             return flag
-
     if flag == -1:
         print("\n\n\t[✗] Invalid Password")
         return flag
 
 
 if __name__ == "__main__":
-    print("************  WANT TO BE NEW WORLD  ************ : (Y/n)")
+    print("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡  WANT TO BE NEW WORLD  ⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡ : (Y/n)")
     choice = getch.getch()
     if choice == "y" or choice == "Y":
         username = userName()
         while len(username) == 0:
             username = userName()
-        flag = -1
-        while flag != 0:
+        password_Check_flag = -1
+        while password_Check_flag != 0:
             passString = password()
-            flag = passwordCheck(passString)
-
+            password_Check_flag = passwordCheck(passString)
         directory = "cred"
         parent_dir = "/home/" + username + "/"
         path = os.path.join(parent_dir, directory)
@@ -81,5 +79,6 @@ if __name__ == "__main__":
 
         except OSError as error:
             print("Directory '%s' can not be created" % directory)
+
     else:
-        print("\n\n************  YES YOU DON'T DESERVE THIS WORLD  ************")
+        print("\n\n⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡  YES YOU DON'T DESERVE THIS WORLD  ⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡")
