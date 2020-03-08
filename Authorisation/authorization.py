@@ -60,6 +60,7 @@ def passwordCheck(password):
 
 
 if __name__ == "__main__":
+    os.system("clear")
     print("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡  WANT TO BE NEW WORLD  ⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡ : (Y/n)")
     choice = getch.getch()
     if choice == "y" or choice == "Y":
