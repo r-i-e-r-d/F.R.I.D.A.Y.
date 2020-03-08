@@ -3,6 +3,10 @@ import sys
 import re
 import os
 
+path = "/home/devi/F.R.I.D.A.Y./"
+sys.path.append(path + "cred/")
+from cred import create_credsheet
+
 
 def userName():
     username = input("Enter The Username : ")
@@ -61,6 +65,7 @@ def passwordCheck(password):
 
 if __name__ == "__main__":
     os.system("clear")
+    project = "F.R.I.D.A.Y."
     print("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡  WANT TO BE NEW WORLD  ⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡ : (Y/n)")
     choice = getch.getch()
     if choice == "y" or choice == "Y":
@@ -72,14 +77,14 @@ if __name__ == "__main__":
             passString = password()
             password_Check_flag = passwordCheck(passString)
         directory = "cred"
-        parent_dir = "/home/" + username + "/"
+        parent_dir = "/home/" + username + "/" + project
         path = os.path.join(parent_dir, directory)
         try:
             os.makedirs(path)
             print("Directory '%s' created successfully" % directory)
-
         except OSError as error:
             print("Directory '%s' can not be created" % directory)
+        create_credsheet(username, passString)
 
     else:
         print("\n\n⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡  YES YOU DON'T DESERVE THIS WORLD  ⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡")
