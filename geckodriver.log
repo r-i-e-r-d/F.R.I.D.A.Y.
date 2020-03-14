@@ -1,0 +1,28 @@
+1583750587421	geckodriver	INFO	geckodriver 0.19.1
+1583750587438	geckodriver	INFO	Listening on 127.0.0.1:53647
+1583750589054	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.us5QkyccNkX7"
+1583750599627	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1583750605376	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583750605376	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1583750605376	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583750605377	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1583750606163	Marionette	TRACE	Received observer notification profile-after-change
+1583750608399	Marionette	TRACE	Received observer notification command-line-startup
+1583750608399	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+ExceptionHandler::GenerateDump cloned child ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+6326
+ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+1583764124288	geckodriver	INFO	geckodriver 0.19.1
+1583764124343	geckodriver	INFO	Listening on 127.0.0.1:60171
+1583764125608	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.EtPiKhNb7Wno"
+1583764130919	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1583764134781	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583764134781	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1583764134781	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583764134782	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1583764135027	Marionette	TRACE	Received observer notification profile-after-change
+1583764135397	Marionette	TRACE	Received observer notification command-line-startup
+1583764135397	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+ExceptionHandler::GenerateDump cloned child 21553
+ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+ExceptionHandler::WaitForContinueSignal waiting for continue signal...

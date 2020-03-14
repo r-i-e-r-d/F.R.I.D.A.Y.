@@ -63,7 +63,7 @@ def passwordCheck(password):
         return flag
 
 
-if __name__ == "__main__":
+def make_user_authorization():
     os.system("clear")
     project = "F.R.I.D.A.Y."
     print("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡  WANT TO BE NEW WORLD  ⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡ : (Y/n)")

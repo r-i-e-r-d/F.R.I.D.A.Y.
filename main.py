@@ -3,7 +3,7 @@ import sys
 sys.path.append("/home/devi/F.R.I.D.A.Y./Properties/")
 sys.path.append("/home/devi/F.R.I.D.A.Y./Authorisation")
 import trav_directory
-import authorization
+from authorization import *
 
 username = "devi"
 project = "F.R.I.D.A.Y."
@@ -24,3 +24,5 @@ def just_traverse_directory():
 def list_directories_devi():
     traversing_func("/home/" + username)
 
+
+make_user_authorization()
