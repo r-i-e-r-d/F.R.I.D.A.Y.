@@ -76,15 +76,15 @@ def make_user_authorization():
         while password_Check_flag != 0:
             passString = password()
             password_Check_flag = passwordCheck(passString)
-        directory = "cred"
-        parent_dir = "/home/" + username + "/" + project
-        path = os.path.join(parent_dir, directory)
-        try:
-            os.makedirs(path)
-            print("Directory '%s' created successfully" % directory)
-        except OSError as error:
-            print("Directory '%s' can not be created" % directory)
-        create_credsheet(username, passString)
+        # directory = "cred"
+        # parent_dir = "/home/" + username + "/" + project
+        # path = os.path.join(parent_dir, directory)
+        # try:
+        #     os.makedirs(path)
+        #     print("Directory '%s' created successfully" % directory)
+        # except OSError as error:
+        #     print("Directory '%s' can not be created" % directory)
+        # create_credsheet(username, passString)
 
     else:
         print("\n\n⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡  YES YOU DON'T DESERVE THIS WORLD  ⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡")
